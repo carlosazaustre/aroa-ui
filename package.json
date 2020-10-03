@@ -1,0 +1,35 @@
+{
+  "name": "aroa-ui",
+  "version": "0.0.0-development",
+  "description": "A UI Component library made with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osomsoft/aroa-ui.git"
+  },
+  "keywords": [],
+  "author": "Carlos Azaustre <cazaustre@gmail.com> (https://carlosazaustre.es/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osomsoft/aroa-ui/issues"
+  },
+  "homepage": "https://github.com/osomsoft/aroa-ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.22",
+    "@storybook/addon-essentials": "^6.0.22",
+    "@storybook/addon-links": "^6.0.22",
+    "@storybook/react": "^6.0.22",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1",
+    "minireset.css": "^0.0.6"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}
