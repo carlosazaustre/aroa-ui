@@ -4,12 +4,13 @@
   "description": "A UI Component library made with React",
   "main": "index.js",
   "scripts": {
-    "dev": "yarn storybook",
-    "storybook": "start-storybook -p 6006",
+    "dev": "yarn build-tokens && yarn storybook",
     "lint:js": "eslint .",
     "lint:css": "stylelint \"**/*.css\"",
     "lint": "yarn lint:js && yarn lint:css",
-    "build-storybook": "build-storybook"
+    "build-tokens": "node ./lib/scripts/build-tokens.js",
+    "storybook": "start-storybook -p 6006 -s ./lib/assets",
+    "build-storybook": "build-storybook -s ./lib/assets"
   },
   "repository": {
     "type": "git",
@@ -48,7 +49,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn build-tokens && lint-staged"
     }
   },
   "lint-staged": {
