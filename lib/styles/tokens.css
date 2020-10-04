@@ -123,8 +123,8 @@
 	--media-query-max-width-md: 991.98px;
 	--media-query-max-width-lg: 1199px;
 	
-	--font-family-sans-primary: Noto Sans;
-	--font-family-sans-secondary: Inter, Arial, sans-serif;
+	--font-family-sans-primary: "Noto Sans";
+	--font-family-sans-secondary: "Inter", "Arial", "sans-serif";
 	--font-family-mono: "Roboto Mono", "Courier New", monospace;
 	
 	--font-size-base: 10px;
