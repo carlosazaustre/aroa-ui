@@ -398,7 +398,7 @@ exports[`Storyshots Tokens/Colors Brand 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#FEB800",
+          "backgroundColor": "#feb800",
         }
       }
     />
@@ -413,7 +413,7 @@ exports[`Storyshots Tokens/Colors Brand 1`] = `
       <span
         className="label"
       >
-        #FEB800
+        #feb800
       </span>
     </div>
   </div>
@@ -450,7 +450,7 @@ exports[`Storyshots Tokens/Colors Brand 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#A6A6A6",
+          "backgroundColor": "#a6a6a6",
         }
       }
     />
@@ -465,7 +465,7 @@ exports[`Storyshots Tokens/Colors Brand 1`] = `
       <span
         className="label"
       >
-        #A6A6A6
+        #a6a6a6
       </span>
     </div>
   </div>
@@ -488,7 +488,7 @@ exports[`Storyshots Tokens/Colors Default 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#FEB800",
+          "backgroundColor": "#feb800",
         }
       }
     />
@@ -503,7 +503,7 @@ exports[`Storyshots Tokens/Colors Default 1`] = `
       <span
         className="label"
       >
-        #FEB800
+        #feb800
       </span>
     </div>
   </div>
