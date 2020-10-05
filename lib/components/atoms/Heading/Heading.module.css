@@ -7,12 +7,15 @@
 .color-default {
   color: var(--color-font-base);
 }
+
 .color-primary {
   color: var(--color-primary);
 }
+
 .color-secondary {
   color: var(--color-secondary);
 }
+
 .color-tertiary {
   color: var(--color-tertiary);
 }
@@ -20,21 +23,23 @@
 .size-xs {
   font-size: var(--font-size-xs);
 }
+
 .size-sm {
   font-size: var(--font-size-sm);
 }
-.size-sm {
-  font-size: var(--font-size-sm);
-}
+
 .size-md {
   font-size: var(--font-size-md);
 }
+
 .size-lg {
   font-size: var(--font-size-lg);
 }
+
 .size-xl {
   font-size: var(--font-size-xl);
 }
+
 .size-2xl {
   font-size: var(--font-size-2xl);
 }

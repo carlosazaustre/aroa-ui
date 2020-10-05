@@ -1,0 +1,33 @@
+name: Code Review
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Required to retrieve git history
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: Lint Code
+        run: yarn lint
+      - name: Run Tests
+        run: yarn test
+      - name: Run Chromatic
+        uses: chromaui/action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          storybookUrl: https://5f7a94174e95b90022f300d7-uyxdoefvny.chromatic.com/
