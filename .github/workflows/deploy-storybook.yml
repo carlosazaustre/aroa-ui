@@ -1,0 +1,27 @@
+name: Deploy Storybook to CDN
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Required to retrieve git history
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install Dependencies
+        run: yarn install  --frozen-lockfile
+      - name: Build Storybook
+        run: yarn build-storybook
+      - name: Install firebase dependencies
+        run: yarn add firebase-tools
+      - name: Deploy to Firebase Hosting
+        run: yarn deploy
