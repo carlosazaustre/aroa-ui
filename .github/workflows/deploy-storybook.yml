@@ -22,6 +22,6 @@ jobs:
       - name: Build Storybook
         run: yarn build-storybook
       - name: Install firebase dependencies
-        run: yarn add firebase-cli
+        run: yarn add firebase-tools
       - name: Deploy to Firebase Hosting
-        run: firebase deploy
+        run: yarn deploy
