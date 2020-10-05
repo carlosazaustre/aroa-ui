@@ -80,6 +80,1318 @@ exports[`Storyshots Atoms/Heading Tertiary Color 1`] = `
 </header>
 `;
 
+exports[`Storyshots Atoms/Icon Default 1`] = `
+<div
+  className="icon"
+  style={
+    Object {
+      "height": 16,
+      "width": 16,
+    }
+  }
+>
+  <picture
+    className="picture"
+  >
+    <img
+      src="/icons/public.svg"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": 16,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Atoms/Icon Icons 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/account_circle.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      account
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/exit_to_app.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      logout
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/clear.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      close
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/chat_bubble_outline.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      comment
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/loop.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      retweet
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/favorite_outline.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      favoriteOutline
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/favorite.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      favoriteFill
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/bookmark_outline.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      bookmarkOutline
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/bookmark.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      bookmarkFill
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/add_photo_alternate.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      picture
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/camera_alt.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      pictureAdd
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/arrow_drop_down.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      angleDown
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/person_add.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      contactAdd
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/person.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      contact
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/group.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      contactGroup
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/how_to_reg.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      contactOk
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/lock_outline.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      privateOutline
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/https.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      privateFill
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/public.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      public
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/mail_outline.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      mail
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/explore.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      explore
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/home.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      home
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/facebook.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      facebook
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/google.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      google
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/twitter.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      twitter
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/github.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      github
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Atoms/Input Default 1`] = `
+<input
+  className="input"
+  onChange={[Function]}
+  placeholder="Placeholder text..."
+  type="text"
+/>
+`;
+
+exports[`Storyshots Atoms/Label Danger Label 1`] = `
+<div
+  className="label appearance-danger size-sm"
+>
+  label
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Default 1`] = `
+<div
+  className="label appearance-default size-sm"
+>
+  label
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Information Label 1`] = `
+<div
+  className="label appearance-information size-sm"
+>
+  label
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Large Label 1`] = `
+<div
+  className="label appearance-default size-lg"
+>
+  label
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Medium Label 1`] = `
+<div
+  className="label appearance-default size-md"
+>
+  label
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Small Label 1`] = `
+<div
+  className="label appearance-default size-sm"
+>
+  label
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Success Label 1`] = `
+<div
+  className="label appearance-success size-sm"
+>
+  label
+</div>
+`;
+
+exports[`Storyshots Atoms/Label Warning Label 1`] = `
+<div
+  className="label appearance-warning size-sm"
+>
+  label
+</div>
+`;
+
+exports[`Storyshots Atoms/Link Default 1`] = `
+<a
+  className="link"
+  href="https://aroa.dev"
+  onClick={[Function]}
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  Click me!
+</a>
+`;
+
 exports[`Storyshots Atoms/Picture Default 1`] = `
 <picture
   className="picture"
@@ -168,6 +1480,181 @@ exports[`Storyshots Atoms/Text Small 1`] = `
 >
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </p>
+`;
+
+exports[`Storyshots Layout/Spacer/Default Default 1`] = `
+<div
+  className="spacer is-visible"
+  style={
+    Object {
+      "height": 0,
+      "width": 0,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Default Extra Small 1`] = `
+<div
+  className="spacer is-visible"
+  style={
+    Object {
+      "height": 5,
+      "width": 5,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Default Large 1`] = `
+<div
+  className="spacer is-visible"
+  style={
+    Object {
+      "height": 40,
+      "width": 40,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Default Medium 1`] = `
+<div
+  className="spacer is-visible"
+  style={
+    Object {
+      "height": 20,
+      "width": 20,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Default Small 1`] = `
+<div
+  className="spacer is-visible"
+  style={
+    Object {
+      "height": 15,
+      "width": 15,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Horizontal Default 1`] = `
+<div
+  className="space horizontal is-visible"
+  style={
+    Object {
+      "height": 0,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Horizontal Extra Small 1`] = `
+<div
+  className="space horizontal is-visible"
+  style={
+    Object {
+      "height": 5,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Horizontal Large 1`] = `
+<div
+  className="space horizontal is-visible"
+  style={
+    Object {
+      "height": 40,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Horizontal Medium 1`] = `
+<div
+  className="space horizontal is-visible"
+  style={
+    Object {
+      "height": 20,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Horizontal Small 1`] = `
+<div
+  className="space horizontal is-visible"
+  style={
+    Object {
+      "height": 15,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Vertical Default 1`] = `
+<div
+  className="spacer vertical is-visible"
+  style={
+    Object {
+      "maxHeight": 200,
+      "width": 0,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Vertical Extra Small 1`] = `
+<div
+  className="spacer vertical is-visible"
+  style={
+    Object {
+      "maxHeight": 200,
+      "width": 5,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Vertical Large 1`] = `
+<div
+  className="spacer vertical is-visible"
+  style={
+    Object {
+      "maxHeight": 200,
+      "width": 40,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Vertical Medium 1`] = `
+<div
+  className="spacer vertical is-visible"
+  style={
+    Object {
+      "maxHeight": 200,
+      "width": 20,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Layout/Spacer/Vertical Small 1`] = `
+<div
+  className="spacer vertical is-visible"
+  style={
+    Object {
+      "maxHeight": 200,
+      "width": 15,
+    }
+  }
+/>
 `;
 
 exports[`Storyshots Molecules/Avatar Default 1`] = `
