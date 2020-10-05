@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "yarn build-tokens && yarn storybook",
+    "test": "jest",
     "lint:js": "eslint .",
     "lint:css": "stylelint \"**/*.css\"",
     "lint": "yarn lint:js && yarn lint:css",
-    "build-tokens": "node ./lib/scripts/build-tokens.js",
     "storybook": "start-storybook -p 6006 -s ./lib/assets",
+    "build-tokens": "node ./lib/scripts/build-tokens.js",
     "build-storybook": "build-storybook -s ./lib/assets"
   },
   "repository": {
@@ -30,6 +31,7 @@
     "@storybook/addon-actions": "6.0.22",
     "@storybook/addon-essentials": "6.0.22",
     "@storybook/addon-links": "6.0.22",
+    "@storybook/addon-storyshots": "6.0.25",
     "@storybook/react": "6.0.22",
     "babel-jest": "26.3.0",
     "babel-loader": "8.1.0",
