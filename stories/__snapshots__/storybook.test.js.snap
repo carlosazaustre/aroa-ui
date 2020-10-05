@@ -80,6 +80,40 @@ exports[`Storyshots Atoms/Heading Tertiary Color 1`] = `
 </header>
 `;
 
+exports[`Storyshots Atoms/Picture Default 1`] = `
+<picture
+  className="picture"
+>
+  <img
+    alt="image"
+    src="https://placeimg.com/400/400/any"
+    style={
+      Object {
+        "height": "auto",
+        "maxWidth": 200,
+      }
+    }
+  />
+</picture>
+`;
+
+exports[`Storyshots Atoms/Picture Image Rounded 1`] = `
+<picture
+  className="picture is-rounded"
+>
+  <img
+    alt="image"
+    src="https://placeimg.com/400/400/any"
+    style={
+      Object {
+        "height": "auto",
+        "maxWidth": 200,
+      }
+    }
+  />
+</picture>
+`;
+
 exports[`Storyshots Atoms/Text Dark Color 1`] = `
 <p
   className="text color-dark size-md"
@@ -134,6 +168,126 @@ exports[`Storyshots Atoms/Text Small 1`] = `
 >
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </p>
+`;
+
+exports[`Storyshots Molecules/Avatar Default 1`] = `
+<div
+  className="avatar"
+>
+  <picture
+    className="picture is-rounded"
+  >
+    <img
+      src="images/default-avatar.jpg"
+      style={
+        Object {
+          "height": 60,
+          "maxWidth": 60,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Molecules/Avatar Large Size 1`] = `
+<div
+  className="avatar"
+>
+  <picture
+    className="picture is-rounded"
+  >
+    <img
+      src="images/default-avatar.jpg"
+      style={
+        Object {
+          "height": 80,
+          "maxWidth": 80,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Molecules/Avatar Medium Size 1`] = `
+<div
+  className="avatar"
+>
+  <picture
+    className="picture is-rounded"
+  >
+    <img
+      src="images/default-avatar.jpg"
+      style={
+        Object {
+          "height": 60,
+          "maxWidth": 60,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Molecules/Avatar Primay Type 1`] = `
+<div
+  className="avatar type-primary"
+>
+  <picture
+    className="picture is-rounded"
+  >
+    <img
+      src="images/default-avatar.jpg"
+      style={
+        Object {
+          "height": 60,
+          "maxWidth": 60,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Molecules/Avatar Secondary Type 1`] = `
+<div
+  className="avatar type-secondary"
+>
+  <picture
+    className="picture is-rounded"
+  >
+    <img
+      src="images/default-avatar.jpg"
+      style={
+        Object {
+          "height": 60,
+          "maxWidth": 60,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Molecules/Avatar Small Size 1`] = `
+<div
+  className="avatar"
+>
+  <picture
+    className="picture is-rounded"
+  >
+    <img
+      src="images/default-avatar.jpg"
+      style={
+        Object {
+          "height": 40,
+          "maxWidth": 40,
+        }
+      }
+    />
+  </picture>
+</div>
 `;
 
 exports[`Storyshots Tokens/Colors Blue 1`] = `
