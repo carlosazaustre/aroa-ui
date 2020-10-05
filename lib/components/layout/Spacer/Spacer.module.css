@@ -1,0 +1,13 @@
+.is-visible {
+  border: 2px dashed var(--color-primary);
+}
+
+.vertical {
+  display: inline-block;
+  height: 100vh;
+}
+
+.horizontal {
+  display: block;
+  width: 100%;
+}

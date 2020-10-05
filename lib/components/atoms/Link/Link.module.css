@@ -1,0 +1,12 @@
+.link {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  display: inline;
+}
+
+.link:hover {
+  color: var(--color-primary-highlight);
+  padding-bottom: 1px;
+  border-bottom: 1px dashed var(--color-primary-highlight);
+}
