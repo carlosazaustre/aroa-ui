@@ -1,0 +1,14 @@
+.avatar {
+  display: inline-block;
+  border-radius: var(--border-radius-full);
+}
+
+.type-primary {
+  border: 2px solid var(--color-primary);
+  padding: 3px;
+}
+
+.type-secondary {
+  border: 2px solid var(--background-color-primary-highlight);
+  padding: 3px;
+}
