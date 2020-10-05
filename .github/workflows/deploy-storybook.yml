@@ -26,6 +26,10 @@ jobs:
     runs-on: ubuntu-16.04
     needs: build
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Required to retrieve git history
       - name: Install firebase dependencies
         run: yarn global add firebase-tools
       - name: Deploy to Firebase Hosting
