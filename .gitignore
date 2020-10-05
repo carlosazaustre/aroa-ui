@@ -105,4 +105,5 @@ dist
 
 ## Custom
 package-lock.json
+storybook-static/
 .vscode

@@ -12,7 +12,8 @@
     "lint": "yarn lint:js && yarn lint:css",
     "storybook": "start-storybook -p 6006 -s ./lib/assets",
     "build-tokens": "node ./lib/scripts/build-tokens.js",
-    "build-storybook": "build-storybook -s ./lib/assets"
+    "build-storybook": "build-storybook -s ./lib/assets",
+    "deploy-storybook": "firebase deploy"
   },
   "repository": {
     "type": "git",
