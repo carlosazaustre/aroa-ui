@@ -23,16 +23,10 @@ jobs:
         run: yarn build-storybook
   deploy:
     name: Deploy
+    runs-on: ubuntu-16.04
     needs: build
-    runs-on: ubuntu-18.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0 # Required to retrieve git history
-      - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_API_TOKEN }}
+      - name: Install firebase dependencies
+        run: yarn global add firebase-tools
+      - name: Deploy to Firebase Hosting
+        run: yarn deploy-storybook --token=${{ secrets.FIREBASE_API_TOKEN }}"
