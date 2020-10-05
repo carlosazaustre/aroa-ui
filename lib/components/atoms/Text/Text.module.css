@@ -1,0 +1,26 @@
+.text {
+  color: var(--color-font-base);
+  font-family: var(--font-family-sans-secondary);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+}
+
+.color-dark {
+  color: var(--color-secondary);
+}
+.color-light {
+  color: var(--color-tertiary);
+}
+
+.size-xs {
+  font-size: var(--font-size-xs);
+}
+.size-sm {
+  font-size: var(--font-size-sm);
+}
+.size-md {
+  font-size: var(--font-size-md);
+}
+.size-lg {
+  font-size: var(--font-size-lg);
+}
