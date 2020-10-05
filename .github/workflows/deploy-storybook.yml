@@ -29,4 +29,4 @@ jobs:
       - name: Install firebase dependencies
         run: yarn global add firebase-tools
       - name: Deploy to Firebase Hosting
-        run: firebase deploy --token "${{ secrets.FIREBASE_API_TOKEN }}"
+        run: firebase deploy --token ${{ secrets.FIREBASE_API_TOKEN }}
