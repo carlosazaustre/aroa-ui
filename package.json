@@ -1,6 +1,7 @@
 {
   "name": "aroa-ui",
   "version": "0.0.0-development",
+  "private": false,
   "description": "A UI Component library made with React",
   "main": "index.js",
   "scripts": {
@@ -35,6 +36,7 @@
     "@storybook/react": "6.0.22",
     "babel-jest": "26.3.0",
     "babel-loader": "8.1.0",
+    "chromatic": "5.2.0",
     "eslint": "7.10.0",
     "eslint-config-prettier": "6.12.0",
     "eslint-plugin-prettier": "3.1.4",
