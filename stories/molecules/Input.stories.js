@@ -39,19 +39,13 @@ HelperTextInput.args = {
 
 export const HelperTextErrorInput = Template.bind({})
 HelperTextErrorInput.args = {
-  id: 'input-story-2',
+  id: 'input-story-5',
   helperText: 'Some interesting text',
   error: true,
 }
 
-export const StartIconInput = Template.bind({})
-StartIconInput.args = {
-  id: 'input-story-5',
-  startIcon: 'mail',
-}
-
-export const EndIconInput = Template.bind({})
-EndIconInput.args = {
+export const IconInput = Template.bind({})
+IconInput.args = {
   id: 'input-story-6',
-  endIcon: 'privateFill',
+  icon: 'mail',
 }

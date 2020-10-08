@@ -11,6 +11,14 @@
   transition: all 0.5 ease;
 }
 
+.icon {
+  color: green;
+  position: absolute;
+  bottom: 50%;
+  top: 47%;
+  left: 34px;
+}
+
 .label {
   font-size: var(--font-size-sm);
   margin-bottom: 3px;
@@ -32,6 +40,10 @@
   padding: 10px 12px;
   width: 95%;
   transition: all 0.3s ease;
+}
+
+.input.has-icon {
+  padding-left: 30px;
 }
 
 .input.error {
