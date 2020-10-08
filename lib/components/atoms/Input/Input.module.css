@@ -1,3 +1,26 @@
+:root {
+  --color-error: var(--color-red-700);
+}
+
+.container {
+  color: var(--color-font-base);
+}
+
+.container:focus-within {
+  color: var(--color-primary);
+  transition: all 0.5 ease;
+}
+
+.label {
+  font-size: var(--font-size-sm);
+  margin-bottom: 3px;
+  display: inline-flex;
+}
+
+.label.error {
+  color: var(--color-error);
+}
+
 .input {
   background-color: var(--color-transparent);
   border: 1px solid var(--background-color-primary-highlight);
@@ -11,6 +34,14 @@
   transition: all 0.3s ease;
 }
 
+.input.error {
+  border-color: var(--color-error);
+}
+
+.input.disabled {
+  background-color: var(--color-gray-200);
+}
+
 .input:focus {
   outline: none;
   box-shadow: var(--box-shadow-sm);
@@ -19,6 +50,18 @@
   border-width: 1px;
 }
 
+.input.error:focus {
+  border-color: var(--color-error);
+}
+
 .input::placeholder {
   color: var(--color-font-highlight);
+}
+
+.helper {
+  font-size: var(--font-size-xs);
+}
+
+.helper.error {
+  color: var(--color-error);
 }
