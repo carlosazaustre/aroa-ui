@@ -166,6 +166,14 @@
   --color-tertiary: #a6a6a6;
   --color-font-base: #333;
   --color-font-highlight: #cbd5e0;
+  --color-error: #c53030;
+  --color-error-text: #feb2b2;
+  --color-warning: #d69e2e;
+  --color-warning-text: #744210;
+  --color-info: #4299e1;
+  --color-info-text: #bee3f8;
+  --color-success: #38a169;
+  --color-success-text: #c6f6d5;
   --background-color-primary: #f7fafc;
   --background-color-primary-highlight: #e2e8f0;
   --background-color-secondary: #333;

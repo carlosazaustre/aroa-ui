@@ -1307,15 +1307,6 @@ Array [
 ]
 `;
 
-exports[`Storyshots Atoms/Input Default 1`] = `
-<input
-  className="input"
-  onChange={[Function]}
-  placeholder="Placeholder text..."
-  type="text"
-/>
-`;
-
 exports[`Storyshots Atoms/Label Danger Label 1`] = `
 <div
   className="label appearance-danger size-sm"
@@ -1774,6 +1765,189 @@ exports[`Storyshots Molecules/Avatar Small Size 1`] = `
       }
     />
   </picture>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Default 1`] = `
+<div
+  className="container"
+>
+  <label
+    className="label"
+    htmlFor="input-story-1"
+  >
+    Label
+  </label>
+  <div
+    className="input-container"
+  >
+    <input
+      className="input"
+      disabled={false}
+      id="input-story-1"
+      onChange={[Function]}
+      placeholder="Placeholder text..."
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Disabled Input 1`] = `
+<div
+  className="container"
+>
+  <label
+    className="label"
+    htmlFor="input-story-3"
+  >
+    Label
+  </label>
+  <div
+    className="input-container"
+  >
+    <input
+      className="input disabled"
+      disabled={true}
+      id="input-story-3"
+      onChange={[Function]}
+      placeholder="Placeholder text..."
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Error Input 1`] = `
+<div
+  className="container"
+>
+  <label
+    className="label error"
+    htmlFor="input-story-2"
+  >
+    Label
+  </label>
+  <div
+    className="input-container"
+  >
+    <input
+      className="input error"
+      disabled={false}
+      id="input-story-2"
+      onChange={[Function]}
+      placeholder="Placeholder text..."
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Helper Text Error Input 1`] = `
+<div
+  className="container"
+>
+  <label
+    className="label error"
+    htmlFor="input-story-5"
+  >
+    Label
+  </label>
+  <div
+    className="input-container"
+  >
+    <input
+      className="input error"
+      disabled={false}
+      id="input-story-5"
+      onChange={[Function]}
+      placeholder="Placeholder text..."
+      type="text"
+    />
+    <div
+      className="helper error"
+    >
+      Some interesting text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Helper Text Input 1`] = `
+<div
+  className="container"
+>
+  <label
+    className="label"
+    htmlFor="input-story-4"
+  >
+    Label
+  </label>
+  <div
+    className="input-container"
+  >
+    <input
+      className="input"
+      disabled={false}
+      id="input-story-4"
+      onChange={[Function]}
+      placeholder="Placeholder text..."
+      type="text"
+    />
+    <div
+      className="helper"
+    >
+      Some interesting text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Icon Input 1`] = `
+<div
+  className="container"
+>
+  <label
+    className="label"
+    htmlFor="input-story-6"
+  >
+    Label
+  </label>
+  <div
+    className="input-container"
+  >
+    <div
+      className="icon icon"
+      style={
+        Object {
+          "height": 18,
+          "width": 18,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
+          src="/icons/mail_outline.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": 18,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <input
+      className="input has-icon"
+      disabled={false}
+      id="input-story-6"
+      onChange={[Function]}
+      placeholder="Placeholder text..."
+      type="text"
+    />
+  </div>
 </div>
 `;
 
