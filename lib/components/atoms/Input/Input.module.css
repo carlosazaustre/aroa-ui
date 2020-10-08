@@ -12,11 +12,12 @@
 }
 
 .icon {
-  color: green;
   position: absolute;
   bottom: 50%;
   top: 47%;
   left: 34px;
+  filter: opacity(0.3);
+  user-select: none;
 }
 
 .label {
@@ -72,6 +73,7 @@
 
 .helper {
   font-size: var(--font-size-xs);
+  color: var(--color-tertiary);
 }
 
 .helper.error {
