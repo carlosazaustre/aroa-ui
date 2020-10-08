@@ -1768,6 +1768,198 @@ exports[`Storyshots Molecules/Avatar Small Size 1`] = `
 </div>
 `;
 
+exports[`Storyshots Molecules/Button Danger Color Button 1`] = `
+<button
+  className="button color-danger variant-filled size-md"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Default 1`] = `
+<button
+  className="button color-default variant-filled size-md"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Default Color Button 1`] = `
+<button
+  className="button color-default variant-filled size-md"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Disabled Button 1`] = `
+<button
+  className="button color-default variant-filled size-md disabled"
+  disabled={true}
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Disabled Text Button 1`] = `
+<button
+  className="button color-default variant-text size-md disabled"
+  disabled={true}
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button End Icon Button 1`] = `
+<button
+  className="button color-primary variant-filled size-md"
+  onClick={[Function]}
+>
+  Button
+  <div
+    className="spacer"
+    style={
+      Object {
+        "height": 5,
+        "width": 5,
+      }
+    }
+  />
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 16,
+        "width": 16,
+      }
+    }
+  >
+    <picture
+      className="picture"
+    >
+      <img
+        src="/icons/how_to_reg.svg"
+        style={
+          Object {
+            "height": "auto",
+            "maxWidth": 16,
+          }
+        }
+      />
+    </picture>
+  </div>
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Large Size Button 1`] = `
+<button
+  className="button color-primary variant-filled size-lg"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Medium Size Button 1`] = `
+<button
+  className="button color-primary variant-filled size-md"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Outline Button 1`] = `
+<button
+  className="button color-default variant-outline size-md"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Primary Color Button 1`] = `
+<button
+  className="button color-primary variant-filled size-md"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Small Size Button 1`] = `
+<button
+  className="button color-primary variant-filled size-sm"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Start Icon Button 1`] = `
+<button
+  className="button color-primary variant-filled size-md"
+  onClick={[Function]}
+>
+  <div
+    className="icon"
+    style={
+      Object {
+        "height": 16,
+        "width": 16,
+      }
+    }
+  >
+    <picture
+      className="picture"
+    >
+      <img
+        src="/icons/person_add.svg"
+        style={
+          Object {
+            "height": "auto",
+            "maxWidth": 16,
+          }
+        }
+      />
+    </picture>
+  </div>
+  <div
+    className="spacer"
+    style={
+      Object {
+        "height": 5,
+        "width": 5,
+      }
+    }
+  />
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Success Color Button 1`] = `
+<button
+  className="button color-success variant-filled size-md"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Molecules/Button Text Button 1`] = `
+<button
+  className="button color-default variant-text size-md"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
 exports[`Storyshots Molecules/Input Default 1`] = `
 <div
   className="container"
