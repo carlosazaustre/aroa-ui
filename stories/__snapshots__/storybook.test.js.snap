@@ -1049,6 +1049,52 @@ Array [
         className="picture"
       >
         <img
+          src="/icons/hamburger.svg"
+          style={
+            Object {
+              "height": "auto",
+              "maxWidth": undefined,
+            }
+          }
+        />
+      </picture>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+          "border": "1px solid #eaeaea",
+          "borderRadius": "10px",
+          "fontSize": "1.2rem",
+          "padding": "1.2rem",
+          "textAlign": "center",
+        }
+      }
+    >
+      menu
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "padding": "5px",
+      }
+    }
+  >
+    <div
+      className="icon"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <picture
+        className="picture"
+      >
+        <img
           src="/icons/explore.svg"
           style={
             Object {
@@ -2141,6 +2187,63 @@ exports[`Storyshots Molecules/Input Icon Input 1`] = `
     />
   </div>
 </div>
+`;
+
+exports[`Storyshots Organisms/Navbar Default 1`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="navbar-left"
+  >
+    <picture
+      className="picture"
+    >
+      <img
+        alt="Logo"
+        src="images/theme-logo.png"
+        style={
+          Object {
+            "height": "auto",
+            "maxWidth": 50,
+          }
+        }
+      />
+    </picture>
+  </div>
+  <div
+    className="navbar-right"
+  >
+    <button
+      className="button color-default variant-text size-xs menu-btn"
+      onClick={[Function]}
+    >
+      <div
+        className="icon"
+        style={
+          Object {
+            "height": 18,
+            "width": 18,
+          }
+        }
+      >
+        <picture
+          className="picture"
+        >
+          <img
+            src="/icons/hamburger.svg"
+            style={
+              Object {
+                "height": "auto",
+                "maxWidth": 18,
+              }
+            }
+          />
+        </picture>
+      </div>
+    </button>
+  </div>
+</nav>
 `;
 
 exports[`Storyshots Tokens/Colors Blue 1`] = `
