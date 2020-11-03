@@ -47,7 +47,7 @@
     "eslint-plugin-react": "7.21.3",
     "husky": "4.3.0",
     "identity-obj-proxy": "3.0.0",
-    "jest": "26.4.2",
+    "jest": "26.6.2",
     "lint-staged": "10.4.0",
     "minireset.css": "0.0.6",
     "prettier": "2.1.2",
